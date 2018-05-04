@@ -11,23 +11,43 @@ As a group or individually create a public repo on github.
 Then create your own file with your solutions.  Please include
 the name of each team member. 
 
-* TODO Welcome to the world of unicorns, goblins
+* DONE Welcome to the world of unicorns, goblins
+  CLOSED: [2018-05-03 Thu 18:38]
+  :LOGBOOK:
+  CLOCK: [2018-05-03 Thu 18:37]--[2018-05-03 Thu 18:38] =>  0:01
+  :END:
 In this world unicorns only tell the truth.
 Goblins only lie.
 A says: B is a unicorn.
 B says: A and I are opposite type.
 
-What is A:
-What is B:
+What is A: goblin
+What is B: goblin
 
-* TODO 8 duds and 1 armed bomb.
+* DONE 8 duds and 1 armed bomb.
+  :LOGBOOK:
+  CLOCK: [2018-05-04 Fri 11:08]--[2018-05-04 Fri 11:11] =>  0:03
+  :END:
 Some idiot forgot to disarm a bomb that is laid in the 'decomisioned' bomb pile.
 Unfortunately the only way to tell which bomb is armed is to use a special weighing system.
 To add insult to injury we don't know if the armed bomb weighs less or more on the system just that it weighs differently.
 But there is yet another catch the weighing system only have two charges left, but it can weight any number of bombs at once.
 Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine twice.
 
-* TODO The BEAST
+
+Answer:
+       For the first charge, you weigh 3 and 3 on each side of the scale.
+       If they're different, weigh the heavier set of three for the next
+       charge. If they're the same, weigh the unweighted bombs for the second charge.
+       Weigh 1 bomb on each side of the scale leaving one bomb unweighted. If
+       they're different, the heavier bomb is armed. If they're the same, the unweighted bomb is armed.
+
+
+* DONE The BEAST
+  CLOSED: [2018-05-03 Thu 18:45]
+  :LOGBOOK:
+  CLOCK: [2018-05-03 Thu 18:38]--[2018-05-03 Thu 18:45] =>  0:07
+  :END:
 The Shoe Shack has made several top-dollar sales today. 
 Using only the clues below, match each customer to their foot size, 
 shoe brand and final purchase price.
@@ -50,16 +70,16 @@ No option in any category will ever be used more than once.
 14. The Abbott Hill footwear was 5 sizes larger than the $215 pair.
 15. The Williford footwear was 1 size smaller than the $245 pair.
 
-Solution
+Solution:
 
-| Shoe Sizes | Customers | Brands | Prices |
-|          4 |           |        |        |
-|          5 |           |        |        |
-|          6 |           |        |        |
-|          7 |           |        |        |
-|          8 |           |        |        |
-|          9 |           |        |        |
-|         10 |           |        |        |
+| Shoe Sizes | Customers | Brands      | Prices |
+|          4 |     Marie |    Graffetz |   $185 |
+|          5 |   Vanessa |   Schtillet |   $215 |
+|          6 |     Lucia |     Cormano |        |
+|          7 |           |    Tinghill |   $260 |
+|          8 |   Natalie |   Williford |   $125 |
+|          9 |  Francine |             |   $245 |
+|         10 |      Ruth | Abbott Hill |   $170 |
 
 * TODO Exercises
 In 01-ponder do every third exercise. 
@@ -68,13 +88,212 @@ but if you start at 3rd then you need to do the 6th.
 
 You must put them in this file!
 
-* DO NOT INCLUDE THIS PART BELOW FOR THE LAB
-* ######## FOR PUZZLES AND PROJECTS #########
-A more Brother Neff-like assignment, with a Brother Benning twist!
+* Exercise: 1
+** DONE UCA
+   CLOSED: [2018-05-03 목 20:09]
+   :LOGBOOK:
+   CLOCK: [2018-05-03 목 20:08]--[2018-05-03 목 20:09] =>  0:00004 :END:
+#+begin_note
+  Start your exercise warmup by thinking up three examples and three
+  non-examples of propositions. Make them pithy.
+#+end_note
+#+begin_info
+  1.) Unicorns are mythical creatures.
+  2.) South Koreas flag is white with black stripes and a red and black yin-yang.
+  3.) Eight hours of sleep a night is required for an average person
+  non:
+  1.) Are you going to eat that?
+  2.) Go to the store-room and grab the broom.
+  3.) Listen to the music.
+#+end_info
 
+* Exercise: 4
+* DONE OGR
+   CLOSED: [2018-05-03 목 20:10]
+   :LOGBOOK:
+   CLOCK: [2018-05-03 목 20:10]--[2018-05-03 목 20:10] =>  0:05
+   :END:
+#+begin_note
+  Which of the following are simple (not compound) propositions?
+
+  1. Weeks are shorter than months.
+  2. Days are longer than hours and minutes.
+  3. Hours are longer than minutes and seconds are shorter than minutes.
+  4. People can fly or pigs can sing.
+#+end_note
+#+begin_info
+  1 and 2 are simple propositions.
+#+end_info
+
+* Exercise: 7
+** DONE UOX
+   CLOSED: [2018-05-03 목 20:10]
+   :LOGBOOK:
+   CLOCK: [2018-05-03 목 20:10]--[2018-05-03 목 20:10] =>  0:15
+   :END:
+#+begin_note
+  What other special forms besides =if= does elisp have for doing conditionals?
+  Why are they called \ldquo{}special\rdquo?
+:HINT:
+  - Hint :: You can find at least six.
+:END:
+#+end_note
+#+begin_info
+  1.) =and=
+  2.) =while=
+  3.) =catch=
+  4.) =cond=
+  5.) =defvar=
+  6.) =let=
+  They are called special because not all of these conditionals arguments
+  are evaluated.
+#+end_info
+
+* Exercise: 10
+** DONE UIN
+   CLOSED: [2018-05-03 목 20:16]
+   :LOGBOOK:
+   CLOCK: [2018-05-03 목 20:12]--[2018-05-03 목 20:16] =>  0:04
+   :END:
+#+begin_note
+  What is the set difference between the set of letters in the English alphabet
+  and the set of letters in the Hawaiian alphabet?
+#+end_note
+#+begin_info
+  The difference between the letters in the two alphabets is that the Hawaiian alphabet is made up of thirteen
+  letters, 5 vowels and 8 consonants.
+     Additionally, the set difference is B C D F G J Q R S T V X Y Z.
+#+end_info
 Please Complete all Problems and Puzzles including the 'optional ones', but skipping the exercises.
 I would recommend working together.  As always I will give out hints
 periodically.
 
+* Exersize: 13
+* DONE OIO
+  :LOGBOOK:
+  CLOCK: [2018-05-04 Fri 16:12]--[2018-05-04 Fri 16:28] =>  0:16
+  :END:
+#+begin_note
+  Here is a setq chain ilustrating subsetsize compared to superset size:
+
+  (setq A [s i z e]
+        a 4
+        B [b i g g e r i n s i z e]
+        b 12
+        A-is-a-subset-of-B t
+        a-is-less-than-or-equal-to-b t)
+
+  Write or find built-in functions so that you can revise this chain of
+  assignments to avoid literals 4, 12 and t,
+  instead replacing them with function calls.
+#+end_note
+#+begin_info
+  Use funcall or apply to find the cardinallity of A and B.
+  To avoid t we need to write a defun to iterate through both list.
+#+end_info
+* DONE UTQ
+#+begin_note
+  Let /p/ and /q/ be the propositions:
+
+  /p/: You applied for admission at BYU-Idaho.
+
+  /q/: You were accepted.
+
+  Express these sentences as propositions using logical connectives.
+  1. You applied for admission at BYU-Idaho and were accepted.
+  2. You did not apply for admission at BYU-Idaho but were still accepted.
+  3. You applied for admission at BYU-Idaho but were not accepted.
+  4. Either you did not apply for admission at BYU-Idaho and didn\rsquo{}t get accepted
+     or you did apply and got accepted.
+#+end_note
+#+begin_info
+
+    1. /p/ \land /q/
+    2. \not /p/ \land /q/
+    3. /p/ \land \not /q/
+    4. (\not /p/ \land \not /q/)\lor(/p/ \land /q/)
+#+end_info
+
+
+** DONE UWY
+   :LOGBOOK:
+   CLOCK: [2018-05-04 Fri 10:28]--[2018-05-04 Fri 10:28] =>  0:00
+   :END:
+#+begin_note
+  Use truth tables to verify the distributive laws.
+  1. $p \wedge (q \lor r) \equiv (p \wedge q) \lor (p \wedge r)$.
+  2. $p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r)$.
+
+#+end_note
+#+begin_info
+  Your answer goes here.
+    p \wedge (q \lor r) \equiv 
+    (p q r =)
+     0 0 0 0
+     0 0 1 0
+     0 1 0 0
+     0 1 1 0
+     1 0 0 0
+     1 0 1 1
+     1 1 0 1
+     1 1 1 1
+     (p \wedge q) \lor (p \wedge r)$.
+     (p q r =)
+     0 0 0 0
+     0 0 1 0
+     0 1 0 0
+     0 1 1 0
+     1 0 0 0
+     1 0 1 1
+     1 1 0 1
+     1 1 1 1
+   Yes, they are logically equivelant.
+
+   p \vee (q \wedge r) \equiv 
+    (p q r =)
+     0 0 0 0 
+     0 0 1 0
+     0 1 0 0
+     0 1 1 1
+     1 0 0 1
+     1 0 1 1
+     1 1 0 1
+     1 1 1 1
+
+(p \vee q) \wedge (p \vee r)$.
+     (p q r =)
+     0 0 0 0 
+     0 0 1 0
+     0 1 0 0
+     0 1 1 1
+     1 0 0 1
+     1 0 1 1
+     1 1 0 1
+     1 1 1 1
+   Yes, they are logically equivelant.
+#+end_info
+
+** DONE OYP
+   :LOGBOOK:
+   CLOCK: [2018-05-04 Fri 10:29]--[2018-05-04 Fri 10:29] =>  0:00
+   :END:
+#+begin_note
+  Match the following set identities with their counterparts in the
+  miscellaneous logic laws:
+
+  1. A \cap U = A
+  2. A \cup U = U.
+  3. A \cup \empty = A.
+  4. A \cap \empty = \empty.
+  5. $\overline{\overline{\mathsf{A}}} = \mathsf{A}$.
+#+end_note
+#+begin_info
+
+  1. idempotence
+  2. absorption
+  3. idempotence
+  4. absorption
+  5. double negation
+#+end_info
 (NOTE:I would keep all your exercises/problems/puzzles you do, if you
 take DM 2, you may find these extreeeeeeeeeemly helpful, or not)
